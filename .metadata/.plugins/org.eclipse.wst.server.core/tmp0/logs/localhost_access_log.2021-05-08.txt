@@ -1,0 +1,4 @@
+127.0.0.1 - - [08/May/2021:16:05:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/May/2021:16:05:26 +0530] "GET /spring-security-demo-02-base-security-app/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/May/2021:16:05:26 +0530] "GET /spring-security-demo-02-base-security-app/login HTTP/1.1" 200 577
+0:0:0:0:0:0:0:1 - - [08/May/2021:16:05:40 +0530] "GET /spring-security-demo-01-base-app/ HTTP/1.1" 200 203
