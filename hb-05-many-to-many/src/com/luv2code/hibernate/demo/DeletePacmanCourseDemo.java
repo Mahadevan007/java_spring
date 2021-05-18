@@ -20,7 +20,7 @@ public class DeletePacmanCourseDemo {
 									.addAnnotatedClass(Instructor.class)
 									.addAnnotatedClass(InstructorDetail.class)
 									.addAnnotatedClass(Course.class)
-									.addAnnotatedClass(Review.class)
+							 		.addAnnotatedClass(Review.class)
 									.addAnnotatedClass(Student.class)
 									.buildSessionFactory();
 		// create session
@@ -31,7 +31,7 @@ public class DeletePacmanCourseDemo {
 			session.beginTransaction();
 			
 			// get the pacman course from db
-			int courseId = 10;
+			int courseId = 19;
 			Course tempCourse = session.get(Course.class, courseId);
 			
 			// delete the course

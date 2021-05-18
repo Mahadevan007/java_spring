@@ -80,6 +80,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Admin\Documents\Java Materials\cruddemo"/>
+			<item value="C:\Users\Admin\Documents\Java Materials\mycoolapp"/>
+			<item value="C:\Users\Admin\Documents\Java Materials\spring-crm-rest-demo"/>
+			<item value="C:\Users\Admin\Documents\Java Materials\jackson-databinding-json-demo"/>
 			<item value="C:\Users\Admin\Documents\Java Materials\spring-security-demo-starter\spring-security-demo-01-base-app"/>
 		</list>
 		<list key="projectNameTemplate">

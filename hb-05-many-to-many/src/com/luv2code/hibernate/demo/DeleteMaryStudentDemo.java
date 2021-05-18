@@ -31,7 +31,7 @@ public class DeleteMaryStudentDemo {
 			session.beginTransaction();
 
 			// get the student from database
-			int studentId = 2;
+			int studentId = 4;
 			Student tempStudent = session.get(Student.class, studentId);
 			
 			System.out.println("\nLoaded student: "+tempStudent);

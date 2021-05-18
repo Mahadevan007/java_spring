@@ -31,15 +31,15 @@ public class AddCoursesForMaryDemo {
 			session.beginTransaction();
 
 			// get the student mary from database
-			int studentId = 2;
+			int studentId = 4;
 			Student tempStudent = session.get(Student.class, studentId);
 			
 			System.out.println("\nLoaded student: "+tempStudent);
 			System.out.println("Course: "+tempStudent.getCourses());
 			 
 			// create more courses
-			Course tempCourse1 = new Course("Rubik's Cube - How to Speed Cube");
-			Course tempCourse2 = new Course("Atari 2600 - Game Development");
+			Course tempCourse1 = new Course("Uncharted");
+			Course tempCourse2 = new Course("Sands Of Time");
 			 
 			// add student to courses
 			tempCourse1.addStudent(tempStudent);
